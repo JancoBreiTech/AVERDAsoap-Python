@@ -1,4 +1,6 @@
 from PIL import Image
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 
 print("Enter Order Number")
 OrderNr = input()
@@ -37,23 +39,14 @@ print("Input Signature Name")
 LZSIGNNAM = input()
 
 print("Input Signature Image")#test change to image
-LZSIGNIMG = input()
-'''
-try:  
-    LZSIGNIMG  = Image.open(path)  
-except IOError: 
-    pass
-'''
+#LZSIGNIMG = input()
+Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+LZSIGNIMG = askopenfilename() # show an "Open" dialog box and return the path to the selected file
 
 print("Input Fulfilment Image")#change to img
-LZFFIMG = input()
-'''
-try:  
-    LZFFIMG  = Image.open(path)  
-except IOError: 
-    pass
-'''
-
+#LZFFIMG = input()
+Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+LZFFIMG = askopenfilename() # show an "Open" dialog box and return the path to the selected file
 
 #return Status
 LERR = "0 or 1"
