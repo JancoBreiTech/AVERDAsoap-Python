@@ -1,3 +1,5 @@
+from PIL import Image
+
 print("Enter Order Number")
 OrderNr = input()
 print("Enter Order Line")
@@ -36,9 +38,21 @@ LZSIGNNAM = input()
 
 print("Input Signature Image")#test change to image
 LZSIGNIMG = input()
+'''
+try:  
+    LZSIGNIMG  = Image.open(path)  
+except IOError: 
+    pass
+'''
 
 print("Input Fulfilment Image")#change to img
 LZFFIMG = input()
+'''
+try:  
+    LZFFIMG  = Image.open(path)  
+except IOError: 
+    pass
+'''
 
 
 #return Status
