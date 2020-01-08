@@ -95,7 +95,6 @@ arrOfParamKeyValueDict['_href'] = ""
 print(arrOfParamKeyValueDict)
 
 #Dict>>JSON
-import json
 print(json.dumps(arrOfParamKeyValueDict))
 
 #ArrayOfCAdxMessage
@@ -114,7 +113,6 @@ arrayOfCAdxMessageDict['_href'] = ""
 print(arrayOfCAdxMessageDict)
 
 #Dict>>JSON
-import json
 print(json.dumps(arrayOfCAdxMessageDict))
 
 #ArrayOf_xsd_string
@@ -133,7 +131,6 @@ arrayOf_xsd_stringDict['_href'] = ""
 print(arrayOf_xsd_stringDict)
 
 #Dict>>JSON
-import json
 print(json.dumps(arrayOf_xsd_stringDict))
 
 #CAdxMessage
@@ -149,7 +146,6 @@ cAdxMessageDict['type'] = None
 print(cAdxMessageDict)
 
 #Dict>>JSON
-import json
 print(json.dumps(cAdxMessageDict))
 
 #CAdxParamKeyValue
@@ -165,7 +161,6 @@ cAdxParamKeyValueDict['value'] = None
 print(cAdxMessageDict)
 
 #Dict>>JSON
-import json
 print(json.dumps(cAdxParamKeyValueDict))
 
 #CAdxTechnicalInfos
@@ -198,7 +193,6 @@ cAdxTechnicalInfosDict['traceRequestSize'] = None
 print(cAdxTechnicalInfosDict)
 
 #Dict>>JSON
-import json
 print(json.dumps(cAdxTechnicalInfosDict))
 
 
@@ -217,7 +211,6 @@ cAdxResultXmlDict['technicalInfos'] = cAdxTechnicalInfosDict
 print(cAdxResultXmlDict)
 
 #Dict>>JSON
-import json
 print(json.dumps(cAdxResultXmlDict))
 
 
