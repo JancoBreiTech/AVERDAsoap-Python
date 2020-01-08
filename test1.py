@@ -7,12 +7,13 @@ import suds
 from suds.transport.http import HttpAuthenticated
 
 
-
+'''
 logging.basicConfig(level=logging.INFO)
 logging.getLogger('suds.client').setLevel(logging.DEBUG)
 logging.getLogger('suds.transport').setLevel(logging.DEBUG)
 logging.getLogger('suds.xsdschema').setLevel(logging.DEBUG)
 logging.getLogger('suds.wsdl').setLevel(logging.DEBUG)
+'''
 
 wsdl = 'https://sage-app.averda.co.za:8124/soap-wsdl/syracuse/collaboration/syracuse/CAdxWebServiceXmlCC?wsdl'
 if hasattr(ssl, '_create_unverified_context'):
