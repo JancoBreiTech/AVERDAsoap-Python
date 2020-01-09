@@ -104,7 +104,6 @@ print(arrayOfCAdxMessage)
 #create Dict
 arrayOfCAdxMessageDict = {}
 
-
 arrayOfCAdxMessageDict['_arrayType'] = ""
 arrayOfCAdxMessageDict['_offset'] = ""
 arrayOfCAdxMessageDict['_id'] = ""
